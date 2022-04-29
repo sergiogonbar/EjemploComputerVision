@@ -21,8 +21,8 @@ export class WebCamCV extends Component {
         this.state = {
 
             /* Set the subscription key here */
-            subscriptionKey: '2842f8bac42449f8ba4fe1492b38ce17',
-            endpointRegion: 'westeurope', //change your endpoint region here
+            subscriptionKey: '',
+            endpointRegion: '', //change your endpoint region here
 
             facingMode: "user",
             img: null,
